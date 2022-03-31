@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div
+      id="container"
+      class="flex h-screen w-screen items-center justify-center bg-cyan-500 font-mono"
+    >
+      <div id="card" class="w-80 rounded-2xl bg-white">
+        <div id="intro" class="relative">
+          <img
+            id="intro-bg"
+            src="./src/assets/bg-pattern-card.svg"
+            alt="intro-bg"
+            class="rounded-t-2xl"
+          />
+          <img
+            id="intro-photo"
+            src="./src/assets/image-victor.jpg"
+            alt="intro-photo"
+            class="absolute top-20 left-28 h-auto w-24 rounded-full border-4 border-white"
+          />
+          <div id="intro-text" class="py-5 pt-16 text-center">
+            <div id="text-top" class="flex justify-center gap-x-2 pb-2">
+              <h1 id="name" class="font-bold">Phoenix Chen</h1>
+              <p id="age" class="text-gray-600">30</p>
+            </div>
+            <p id="text-bottom" class="text-sm text-gray-500">Taipei</p>
+          </div>
+        </div>
+        <div id="rate" class="flex justify-evenly border-t-2 py-4 text-center">
+          <div id="rate1">
+            <p class="text-lg font-bold">80K</p>
+            <p class="text-xs text-gray-500">Followers</p>
+          </div>
+          <div id="rate2">
+            <p class="text-lg font-bold">803K</p>
+            <p class="text-xs text-gray-500">Likes</p>
+          </div>
+          <div id="rate3">
+            <p class="text-lg font-bold">1.4K</p>
+            <p class="text-xs text-gray-500">Photos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
